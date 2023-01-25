@@ -1,0 +1,142 @@
+{
+  "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
+  "blocks": [
+    {
+      "alignment": "left",
+      "segments": [
+        // USER
+        {
+          "background": "#2E3440",
+          "foreground": "#C780D8",
+          "leading_diamond": "\u256d\u2500\ue0b6",
+          "properties": {
+            "template": "\uf79f "  //fuego (e780) lunux(e712) buo(e7a1)
+          },
+          "style": "diamond",
+          "type": "shell"
+        },
+        {
+          "background": "#6ABF68",
+          "foreground": "#FFFB38",
+          "properties": {
+            "root_icon": "\uf292",
+            "template": "<parentBackground>\ue0b0</> \uf0e7 "
+          },
+          "style": "diamond",
+          "type": "root"
+        },
+        {
+          "background": "#232A2D",
+          "foreground": "#DCD7BA",
+          "powerline_symbol": "\ue0b0",
+          "properties": {
+            "style": "full",
+            "template": " {{ .Path }} "
+          },
+          "style": "powerline",
+          "type": "path"
+        },
+        {
+          "background": "#141B1E",
+          "background_templates": [
+            "{{ if or (.Working.Changed) (.Staging.Changed) }}#ffeb95{{ end }}",
+            "{{ if and (gt .Ahead 0) (gt .Behind 0) }}#c5e478{{ end }}",
+            "{{ if gt .Ahead 0 }}#C792EA{{ end }}",
+            "{{ if gt .Behind 0 }}#C792EA{{ end }}"
+          ],
+          "foreground": "#FF8800",
+          "powerline_symbol": "\ue0b8",
+          "properties": {
+            "branch_icon": "\uf7a1 ",
+            "fetch_status": true,
+            "fetch_upstream_icon": true,
+            "template": " {{ .HEAD }} {{ if .Working.Changed }}{{ .Working.String }}{{ end }}{{ if and (.Working.Changed) (.Staging.Changed) }} |{{ end }}{{ if .Staging.Changed }}<#ef5350> \uf046 {{ .Staging.String }}</>{{ end }} "
+          },
+          "style": "powerline",
+          "type": "git"
+        }
+      ],
+      "type": "prompt"
+    },
+    {
+      "alignment": "right",
+      "segments": [
+        {
+          "background": "#333333",
+          "foreground": "#3C873A",
+          "leading_diamond": " \ue0b6",
+          "properties": {
+            "fetch_package_manager": true,
+            "npm_icon": " <#cc3a3a>\ue5fa</> ",
+            "template": "\ue718 {{ if .PackageManagerIcon }}{{ .PackageManagerIcon }} {{ end }}{{ .Full }}",
+            "yarn_icon": " <#348cba>\uf61a</>"
+          },
+          "style": "diamond",
+          "trailing_diamond": "\ue0b4",
+          "type": "node"
+        },
+        {
+          "background": "#232A2D",
+          "foreground": "#E4C76B",
+          "invert_powerline": true,
+          "leading_diamond": " \ue0b6",
+          "properties": {
+            "template": " \uf5ef {{ .CurrentDate | date .Format }} "
+          },
+          "style": "diamond",
+          "trailing_diamond": "\ue0b4",
+          "type": "time"
+        }
+      ],
+      "type": "prompt"
+    },
+    {
+      "alignment": "left",
+      "newline": true,
+      "segments": [
+        {
+          "foreground": "#2E3440", //-
+          "properties": {
+            "template": "\u2570\u2500"
+          },
+          "style": "plain",
+          "type": "text"
+        },
+        {
+          "foreground": "#C780D8", //>
+          "foreground_templates": [
+            "{{ if gt .Code 0 }}#ef5350{{ end }}"
+          ],
+          "properties": {
+            "always_enabled": true,
+            "template": "{{ if gt .Code 0 }}\uf460{{ else }}\uf460{{ end }} "
+          },
+          "style": "plain",
+          "type": "exit"
+        }
+      ],
+      "type": "prompt"
+    }
+  ],
+  "osc99": true,
+  "version": 1
+
+  // node e24f
+  // calabera e231
+  // planet e22e
+  // corazon e23a f004
+  // arch f303
+  // apple f302
+  // debian f306
+  // elepant 
+  // fantasma pacman f79f
+  // pluma f829
+  // mincraft
+  // robot fba7
+  // cohete f962
+  // cadademi f973
+  // escudo f982 fc7e f997
+  // calavera fb8a
+  // fuego f490
+  // coffe e005
+}
