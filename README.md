@@ -28,11 +28,11 @@ You can feel free to steal anything from here, but don't forget to give me credi
 
 ```
 $env:USERPROFILE\.config
-|----powershell
-    |   # config file
-    |----user_profile.ps1
-    |   # prompt customizations
-    |----my.omp.json
+├────powershell  
+    │   # config file
+    ├── user_profile.ps1
+    │   # prompt customizations
+    └── my.omp.json
 ```
 ### Information
 
@@ -43,4 +43,6 @@ Here are some details about my setup:
 *   **Shell:** [PowerShell](https://)
 *   **Editor:** [neovim](https://) / [vscode](https://)
 
+### Gallery
 
+![screenshot_1](./images/screenshot-1.png)
