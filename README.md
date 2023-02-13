@@ -44,12 +44,23 @@ Here are some details about my setup:
 *   **Editor:** [neovim](https://) / [vscode](https://)
 
 **Modules**
-1. oh-my-posh
-2. posh-git
-3. PSFzf
-4. PSReadLine
-5. Terminal-Icons
-6. z
+
+<details>
+
+<summary>🎏 oh-my-posh & posh-git</summary>
+
+```powershell
+Install-Module posh-git -Scope CurrentUser -Force
+Install-Module oh-my-posh -Scope CurrentUser -Force
+```
+</details>
+<details>
+<summary>🎄 Terminal-Icons</summary>
+
+```powershell
+Install-Module -Name Terminal-Icons -Repository PSGallery -Force
+```
+</details>
 
 ### Gallery
 
