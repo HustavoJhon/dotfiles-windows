@@ -43,6 +43,14 @@ Here are some details about my setup:
 *   **Shell:** [PowerShell](https://)
 *   **Editor:** [neovim](https://) / [vscode](https://)
 
+**Modules**
+1. oh-my-posh
+2. posh-git
+3. PSFzf
+4. PSReadLine
+5. Terminal-Icons
+6. z
+
 ### Gallery
 
 ![screenshot_1](./images/screenshot-1.png)
