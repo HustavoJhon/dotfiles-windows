@@ -62,6 +62,21 @@ Install-Module -Name Terminal-Icons -Repository PSGallery -Force
 ```
 </details>
 
+**Scoop**
+
+<details>
+
+<summary>List installed apps</summary>
+
+apps:
+    `bat`, `gsudo`, `cur`, `glow`, `ttyper`, `unrar`, `7zip`, `zip`
+```powershell
+scoop install app
+```
+
+</details>
+
+
 ### Gallery
 
 ![screenshot_1](./images/screenshot-1.png)
