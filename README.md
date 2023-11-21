@@ -28,7 +28,7 @@ You can feel free to steal anything from here, but don't forget to give me credi
 
 ```
 $env:USERPROFILE\.config
-├────powershell  
+└──── powershell  
     │   # config file
     ├── user_profile.ps1
     │   # prompt customizations
@@ -42,6 +42,10 @@ Here are some details about my setup:
 *   **Terminal:** [Windows Terminal](https://)
 *   **Shell:** [PowerShell](https://)
 *   **Editor:** [neovim](https://) / [vscode](https://)
+
+### Requirements
+
+* **Font:** [Material Design Icons](https://pictogrammers.com/libraries/)
 
 **Modules**
 

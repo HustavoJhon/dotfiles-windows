@@ -49,7 +49,7 @@
           ],
           "template": " {{ .HEAD }} {{ if .Working.Changed }}{{ .Working.String }}{{ end }}{{ if and (.Working.Changed) (.Staging.Changed) }} |{{ end }}{{ if .Staging.Changed }}<#ef5350> \uf046 {{ .Staging.String }}</>{{ end }} ",
           "properties": {
-            "branch_icon": "\uf7a1 ",
+            "branch_icon": "󰊢 ",
             "fetch_status": true,
             "fetch_upstream_icon": true
           }
