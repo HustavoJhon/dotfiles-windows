@@ -38,14 +38,14 @@ $env:USERPROFILE\.config
 
 Here are some details about my setup:
 
-*   **OS:** [Windows 11](https://)
-*   **Terminal:** [Windows Terminal](https://)
-*   **Shell:** [PowerShell](https://)
-*   **Editor:** [neovim](https://) / [vscode](https://)
+*   **OS:** [Windows 11](https://www.microsoft.com/es-es/software-download/windows11)
+*   **Terminal:** [Windows Terminal](https://github.com/microsoft/terminal)
+*   **Shell:** [PowerShell](https://learn.microsoft.com/en-us/powershell/)
+*   **Editor:** [neovim](https://neovim.io/) / [vscode](https://code.visualstudio.com/)
 
 ### Requirements
 
-* **Font:** [Material Design Icons](https://pictogrammers.com/libraries/)
+* **Icons:** [Material Design Icons](https://pictogrammers.com/libraries/)
 
 **Modules**
 
