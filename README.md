@@ -83,4 +83,4 @@ scoop install app
 
 ### Gallery
 
-![screenshot_1](./images/screenshot-1.png)
+![screenshot_1](./doc/images/screenshot-1.png)
