@@ -12,7 +12,7 @@
           "foreground": "#C780D8",
           "background": "#2E3440",
           "leading_diamond": "\u256d\u2500\ue0b6",
-          "template": "\uf79f "
+          "template": "  "
         },
         {
           "type": "root",
@@ -38,7 +38,7 @@
         {
           "type": "git",
           "style": "powerline",
-          "powerline_symbol": "\ue0b8",
+          "powerline_symbol": "",
           "foreground": "#FF8800",
           "background": "#141B1E",
           "background_templates": [
@@ -73,16 +73,6 @@
             "npm_icon": " <#cc3a3a>\ue5fa</> ",
             "yarn_icon": " <#348cba>\uf61a</>"
           }
-        },
-        {
-          "type": "time",
-          "style": "diamond",
-          "invert_powerline": true,
-          "foreground": "#E4C76B",
-          "background": "#232A2D",
-          "leading_diamond": " \ue0b6",
-          "trailing_diamond": "\ue0b4",
-          "template": " \uf5ef {{ .CurrentDate | date .Format }} "
         }
       ]
     },
@@ -110,6 +100,14 @@
         }
       ],
       "newline": true
+    },
+    {
+      "type": "python",
+      "style": "powerline",
+      "powerline_symbol": "",
+      "foreground": "#100e23",
+      "background": "#906cff",
+      "template": "  {{ .Full }} "
     }
   ],
   "osc99": true
