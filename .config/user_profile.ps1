@@ -6,7 +6,7 @@
 Import-Module posh-git
 Import-Module oh-my-posh
 $omp_config = Join-Path $PSScriptRoot "./hustavo.omp.json"
-oh-my-posh --init --shell pwsh --config $omp_config | Invoke-Expression
+oh-my-posh init pwsh --config $omp_config | Invoke-Expression
 # Set-PoshPrompt name_theme
 
 
