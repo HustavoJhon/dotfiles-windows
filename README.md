@@ -54,6 +54,8 @@ Here are some details about my setup:
 <summary>🎏 oh-my-posh & posh-git</summary>
 
 ```powershell
+winget install JanDeDobbeleer.OhMyPosh -s winget
+
 Install-Module posh-git -Scope CurrentUser -Force
 Install-Module oh-my-posh -Scope CurrentUser -Force
 ```
@@ -63,6 +65,20 @@ Install-Module oh-my-posh -Scope CurrentUser -Force
 
 ```powershell
 Install-Module -Name Terminal-Icons -Repository PSGallery -Force
+```
+</details>
+
+**Current User**
+
+<details>
+<summary>Edition</summary>
+```powershell
+nvim .\user_profile.ps1
+nvim $PROFILE.CurrentUserCurrentHost
+```
+append content
+```powershell
+. $env:USERPROFILE\.config\powershell\user_profile.ps1
 ```
 </details>
 
